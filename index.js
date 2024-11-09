@@ -8,12 +8,12 @@ function defeatIE() {
 }
 
 function defeatNS(e) {
-    if (document.layers || (document.getElementById && !document.all)) {
-        if (e.which == 2 || e.which == 3) {
-            (message);
-            return false;
-        }
-    }
+    // if (document.layers || (document.getElementById && !document.all)) {
+    //     if (e.which == 2 || e.which == 3) {
+    //         (message);
+    //         return false;
+    //     }
+    // }
 }
 if (document.layers) {
     document.captureEvents(Event.MOUSEDOWN);
