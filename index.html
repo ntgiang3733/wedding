@@ -1963,10 +1963,13 @@
         #SHAPE26 svg:last-child,
         #SHAPE5 svg:last-child,
         #SHAPE36 svg:last-child,
-        #BUTTON_SHAPE37 svg:last-child,
+        #BUTTON_SHAPE37 svg:last-child {
+            fill: rgb(141, 151, 102);
+        }
+
         #SHAPE37 svg:last-child,
         #SHAPE38 svg:last-child {
-            fill: rgb(141, 151, 102);
+            fill: rgb(255 255 255)
         }
 
         #PARAGRAPH10>.ladi-paragraph,
@@ -6947,7 +6950,7 @@
 
     <link rel="stylesheet" href="https://www.27biggroup.com/librarywedding/css/StyleWedding.css">
     <!--___________________chong coppy_________________-->
-    <script src="index.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- <script src="https://www.27biggroup.com/librarywedding/functionWedding/library27biggroup.js"></script> -->
     <script>
@@ -7850,16 +7853,20 @@
                         giây. Sau hôm đó chúng mình nói chuyện nhiều hơn và khoảng 2 tháng sau chính thức hẹn hò.</div>
                 </div>
                 <div id="PARAGRAPH23" class="ladi-element ladi-animation-hidden">
-                    <div class="ladi-paragraph">Mình và cô ấy đều rất thích đi du lịch, chúng mình đã đồng hành cùng
+                    <!-- <div class="ladi-paragraph">Mình và cô ấy đều rất thích đi du lịch, chúng mình đã đồng hành cùng
                         nhau đến rất nhiều địa điểm ở Việt Nam: Sapa, Hạ Long, Mai Châu, Phú Quốc, Tháp Chàm,…Mỗi địa
                         điểm đánh dấu rất nhiều kỷ niệm của chúng mình, cả hai đều rất trân trọng những khoảnh khắc bên
-                        nhau.<br></div>
+                        nhau.<br></div> -->
+                    <div style="display: flex; justify-content: center; width: 100%;">
+                        <img src="img/wedding.gif" style="width: 190px;" />
+                    </div>
+
                 </div>
                 <div id="HEADLINE15" class="ladi-element">
                     <h3 class="ladi-headline">Lần đầu gặp&nbsp;<br></h3>
                 </div>
                 <div id="HEADLINE16" class="ladi-element">
-                    <h3 class="ladi-headline">NHỮNG CHUYẾN ĐI Ý NGHĨA<br></h3>
+                    <h3 class="ladi-headline">NHỮNG KỈ NIỆM Ý NGHĨA<br></h3>
                 </div>
                 <div id="IMAGE22" class="ladi-element ladi-animation-hidden">
                     <div class="ladi-image">
@@ -8234,13 +8241,15 @@
                 <div id="GROUP114" class="ladi-element">
                     <div class="ladi-group">
                         <div id="SHAPE37" class="ladi-element off_speaker" style="">
-                            <div class="ladi-shape"><svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/"
+                            <div class="ladi-shape"
+                                style="background-color: #0000004a; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/"
                                     xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
                                     xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
                                     viewBox="206 206 100 100" enable-background="new 206 206 100 100"
                                     xml:space="preserve" preserveAspectRatio="none" width="100%" height="100%" class=""
-                                    fill="rgb(141, 151, 102)">
+                                    fill="rgb(255 255 255)">
                                     <metadata>
                                         <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
                                             <slices></slices>
@@ -8262,16 +8271,18 @@
                                                 width="119.156" height="6.428"></rect>
                                         </g>
                                     </g>
-                                </svg></div>
+                                </svg>
+                            </div>
                         </div>
-                        <div id="SHAPE38" class="ladi-element on_speaker" style="display: none;">
+                        <div id="SHAPE38" class="ladi-element on_speaker"
+                            style="display: none;background-color: #0000004a; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
                             <div class="ladi-shape"><svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/"
                                     xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
                                     xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
                                     viewBox="206 206 100 100" enable-background="new 206 206 100 100"
                                     xml:space="preserve" preserveAspectRatio="none" width="100%" height="100%" class=""
-                                    fill="rgba(141, 151, 102, 1)">
+                                    fill="rgb(255 255 255)">
                                     <metadata>
                                         <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
                                             <slices></slices>
@@ -8298,15 +8309,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="HTML_CODE149" class="ladi-element">
-                    <div class="ladi-html-code"><!--custom chức năng âm nhạc-->
-                        <audio controls="" loop="" id="audio_music" style="display: none;" play="">
-                            <source src="https://www.27biggroup.com/file_music/ido.wav" type="audio/mpeg">
-                        </audio>
-                        <script src="https://www.27biggroup.com/librarywedding/functionWedding/music.js"></script>
-                        <!--custom-->
-                    </div>
-                </div>
+                <audio id="audio_music" src="audio/ta_la_cua_nhau.mp3" autoplay></audio>
             </div>
         </div>
 
@@ -9077,6 +9080,7 @@
 
     <script type="text/javascript" defer=""
         src="https://w.ladicdn.com/v2/source/ladipage.formdata.min.js?v=1715853815925"></script>
+    <script src="index.js"></script>
 </body><savior-host
     style="all: unset; position: absolute; top: 0; z-index: 99999999999999; display: block !important; overflow: unset"></savior-host><en2vi-host
     class="corom-element" version="3"
